@@ -3,6 +3,7 @@
 import HeroSection from "./components/HeroSection"
 import Header from "./components/Header"
 import ProjectShowcase from "./components/ProjectShowcase"
+import AboutSection from "./components/AboutSection"
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
       <main>
         <HeroSection />
         <ProjectShowcase />
-        <div className="h-screen bg-neutral-900" id="about"></div>
+        <AboutSection />
         <div className="h-screen bg-black" id="contact"></div>
       </main>
     </div>
