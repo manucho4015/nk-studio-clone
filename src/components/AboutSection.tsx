@@ -1,7 +1,7 @@
-import { motion } from 'motion/react'
+import { motion, type Variants } from 'motion/react'
 import { useInView } from "react-intersection-observer"
 
-const textVariants = {
+const textVariants: Variants = {
     hidden: { opacity: 0, y: 20 },
     visible: (i: number) => ({
         opacity: 1,
